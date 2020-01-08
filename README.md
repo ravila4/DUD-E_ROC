@@ -1,6 +1,6 @@
 # Notebook for analyzing DUD-E docking results
 
-This code will be used for comparing the results of machine learning rescoring functions, such as *nnscore* and *rfscore* agains the results of AutoDock Vina. Decoy compounds from the DUD-E dataset are docked to their receptors, and poses are scored using these functions.
+This code will be used for comparing the results of machine learning rescoring functions, such as *nnscore* and *rfscore* against the results of AutoDock Vina. Decoy compounds from the DUD-E dataset are docked to their receptors using Vina and the ODDT library, and poses are re-scored.
 
 This repository contains:
  - A python script for docking DUD-E compounds using ODDT
